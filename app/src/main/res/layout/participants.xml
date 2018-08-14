@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teamname"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:text="Teamname:"
+        android:textSize="20dp"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Participants:"
+    android:textSize="20dp"
+    android:id="@+id/partcipants"
+    android:layout_below="@id/teamname"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="25dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College:"
+        android:textSize="20dp"
+        android:id="@+id/college"
+        android:layout_below="@id/partcipants"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="110dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team id:"
+        android:textSize="20dp"
+        android:id="@+id/id"
+        android:layout_below="@id/college"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/teamname"
+        android:textSize="20dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/team"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/partcipants"
+        android:textSize="20dp"
+        android:layout_below="@id/team"
+        android:layout_marginTop="0dp"
+        android:id="@+id/p1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/partcipants"
+        android:textSize="20dp"
+        android:layout_below="@id/p1"
+        android:layout_marginTop="0dp"
+        android:id="@+id/p2"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/partcipants"
+        android:textSize="20dp"
+        android:layout_below="@id/p2"
+        android:layout_marginTop="0dp"
+        android:id="@+id/p3"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/college"
+        android:layout_below="@id/p3"
+        android:textSize="20dp"
+        android:id="@+id/clg"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/id"
+        android:layout_below="@id/clg"
+        android:textSize="20dp"
+        android:id="@+id/ii"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ii"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Register" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+</RelativeLayout>
